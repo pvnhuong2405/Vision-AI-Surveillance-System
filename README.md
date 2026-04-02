@@ -83,16 +83,16 @@
                     Visualization (OpenCV)
 
 ## Cấu trúc project
-.
-├── test_system_DeepIMG.py   # main pipeline
-├── analysis.py              # analytics modules
-├── Object_detection/
-│   └── Model/yolo11n.pt     # model YOLO
-├── Data/
-│   └── test/                # video test
-└── analytics/
-    ├── heatmaps/            # lưu heatmap
-    └── occupancy.csv        # log occupancy
+                .
+                ├── test_system_DeepIMG.py   # main pipeline
+                ├── analysis.py              # analytics modules
+                ├── Object_detection/
+                │   └── Model/yolo11n.pt     # model YOLO
+                ├── Data/
+                │   └── test/                # video test
+                └── analytics/
+                    ├── heatmaps/            # lưu heatmap
+                    └── occupancy.csv        # log occupancy
 
 
 
@@ -112,8 +112,10 @@ python test_system_DeepIMG.py --source 0
 - File sinh ra:
     - analytics/heatmaps/*.png
     - analytics/occupancy.csv
+      
 ## Demo
 <video controls src="Demo.mov" title="Title"></video>
+
 ## Hạn chế hiện tại
 - Depth estimation là relative, không phải metric (mét)
 - Behavior detection dựa trên rule (threshold)
