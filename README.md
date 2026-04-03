@@ -114,8 +114,8 @@ python test_system_DeepIMG.py --source 0
     - analytics/occupancy.csv
       
 ## Demo
-<video controls src="Demo.mov" title="Title"></video>
-
+- Link: https://drive.google.com/drive/folders/1rC_ILQNHK5di0YrAM1fTnRPsI01nJa65?usp=sharing
+  
 ## Hạn chế hiện tại
 - Depth estimation là relative, không phải metric (mét)
 - Behavior detection dựa trên rule (threshold)
