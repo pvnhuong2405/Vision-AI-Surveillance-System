@@ -42,17 +42,17 @@
                     Analytics --> Output(Visualization & CSV Logs)
                     
 ## Cấu trúc project
-.
-├── main.py   # main pipeline
-├── analysis.py              # analytics modules
-├── Object_detection/
-│   └── Model/yolo11n.pt     # model YOLO
-├── Data/
-│   └── test/                # video test
-└── analytics/
-    ├── heatmaps/            # lưu heatmap
-    └── occupancy.csv        # log occupancy
-
+            .
+            ├── test_system_DeepIMG.py   # main pipeline
+            ├── analysis.py              # analytics modules
+            ├── Object_detection/
+            │   └── Model/yolo11n.pt     # model YOLO
+            ├── Data/
+            │   └── test/                # video test
+            └── analytics/
+                ├── heatmaps/            # lưu heatmap
+                └── occupancy.csv        # log occupancy
+            
 
 
 ## Hướng dẫn cài đặt & Sử dụng
