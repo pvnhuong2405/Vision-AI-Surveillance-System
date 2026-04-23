@@ -75,8 +75,11 @@
     - analytics/heatmaps/*.png
     - analytics/occupancy.csv
 ## Demo
-- Link: https://drive.google.com/drive/u/0/folders/1rC_ILQNHK5di0YrAM1fTnRPsI01nJa65
+- Link: https://drive.google.com/drive/folders/1rC_ILQNHK5di0YrAM1fTnRPsI01nJa65?usp=drive_link
+- Video Demo.mp4 chưa xử lý tốt vẫn còn gật lag
+- Video Demo1.mov đã xử lý cải thiện hiện tượng giật lag
 
+  
 ## Hạn chế hiện tại
 - Depth estimation là relative, không phải metric (mét)
 - Behavior detection dựa trên rule (threshold)
